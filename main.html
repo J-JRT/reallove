@@ -30,12 +30,14 @@
 
 <body>
   <! - Phát nhạc tại đây ->
-  <audio id = 'audio' src = 'http: //go.163.com/2018/0209/mengniu/audio/bgm.mp3' loop> </audio>
+  <audio id = 'audio' src = 'http://go.163.com/2018/0209/mengniu/audio/bgm.mp3' loop> </audio>
   <button id = 'status' onclick = 'triggerBgMusic ()'> Nút phát </button>
   <br>
   <span class = "say"> 📱Nhớ vuốt màn hình sang trái </span>
   <br>
   <span class = "say"> 🎁Em ơi, Anh có một món quà nhỏ </span>
+  <br>
+  <span class = "say"> Hãy đón chờ xem nó là gì nhé 😊 </span>
   <! - Bước nhảy thời gian ->
   <meta http-equiv = "refresh" content = "72; url = gift.html">
   <! - Máy đánh chữ ->
@@ -48,24 +50,24 @@
           <span class = "say"> </span> <br>
           <span class = "say"> Kể một câu chuyện. </span> <br>
           <span class = "say"> </span> Ngày xưa, có một cậu bé. Anh ấy tỏ ra tự phụ <br>
-          <span class = "say"> </span> Tôi muốn tận mắt chứng kiến ​​thế giới, nhưng đổi lại là điều đó thật chùn bước <br>
-          <span class = "say"> </span> May mắn thay, cậu bé đã thực sự chạm vào tình yêu của mình <br>
-          <span class = "say"> </span> Từ niềm tin đến Chúa của riêng tôi💎 <br>
+          <span class = "say"> </span> Anh ấy thầm mến cô ấy thật lâu. <br>
+          <span class = "say"> </span> Một ngày, anh ấy nhìn biểu tượng cái đầu bên cạnh tên cô ấy trên Facebook thật lâu, những lời nói đã chuẩn bị trước đột nhiên không nói lên lời. <br>
+          <span class = "say"> </span> Cô ấy cũng không nói, tựa hồ đang đợi cái gì. <br>
           <span class = "say"> </span> <br>
           <span class = "say"> </span> Thế là xong. <br>
-          <span class = "say"> </span> Cậu bé vấp ngã và lớn lên dưới tác phẩm điêu khắc của mình <br>
-          <span class = "say"> </span> Có rất nhiều thực tế đang tồn tại và khao khát tương lai —— <br>
-          <span class = "say"> </span> đợi, xem, chấp nhận, đối mặt ... <br>
-          <span class = "say"> </span> Trong một khoảnh khắc, ngoài cuộc gặp gỡ, qua cuộc hội ngộ, tôi đã gặp cô ấy ⭐ <br>
+          <span class = "say"> </span> Anh ấy nắm chặt bàn tay đầy mồ hôi, viết ba chữ “Anh thích em” lên khung đối thoại chưa gửi💌. <br>
+          <span class = "say"> </span> Anh ấy nhắm mắt lại, cắn răng ấn gửi tin. <br>
+          <span class = "say"> </span> Đợi, xem, chấp nhận, đối mặt ... <br>
+          <span class = "say"> </span> Cùng lúc đó, anh ấy nghe thấy tiếng ‘tít tít’💟. <br>
           <span class = "say"> </span> <br>
-          <span class = "say"> </span> đêm đó, rời khỏi nhau <br>
-          <span class = "say"> </span> Chứng kiến ​​giữa Ngài, những khả năng mới xuất hiện <br>
-          <span class = "say"> </span> Yên lặng, chân thành, vui vẻ và chân thật <br>
-          <span class = "say"> </span> Tình yêu có thể che đậy nhiều tội lỗi💖 <br>
+          <span class = "say"> </span> Anh ấy mở mắt ra, thấy ba chữ: Em yêu anh❤. <br>
+          <span class = "say"> </span> Trước ba chữ kia, có bốn chữ: Tự động trả lời. <br>
+          <span class = "say"> </span> Nên là cả hai bắt đầu một cuộc sống thật hạnh phúc và đầy ấm áp 💕.... kết thúc câu chuyên <br>
+          <span class = "say"> </span> Tình yêu có thể che đậy nhiều tội lỗi và giám bớt căng thẳng trong công việc và trong cuộc sống 💓<br>
           <span class = "say"> </span> <br>
-          <span class = "say"> 🌠2021 ..🌠 </span> <br>
+          <span class = "say"> 🌠Ngày bắt đầu của anh và em: 08-08-2021🌠 </span> <br>
           <span class = "say"> </span> <br>
-          <span class = "say"> <span class = "space"> </span> Tôi thực sự thích Em, người con gái dễ thương❤ :) </span>
+          <span class = "say"> <span class = "space"> </span> Anh thực sự yêu Em, người con gái dễ thương❤😘</span>
         </div>
       </div>
       <! - Thông tin đếm ngược ->
@@ -213,7 +215,7 @@
 
       var textAnimate = eval(Jscex.compile("async", function () {
         var together = new Date();
-        together.setFullYear(2021, 03, 28);
+        together.setFullYear(2021, 07, 08);
         together.setHours(12);
         together.setMinutes(0);
         together.setSeconds(0);
@@ -244,7 +246,7 @@
     // Thay thế thời gian Js
     function timer() {
       window.setTimeout("show_date_time()", 1000);
-      var start = new Date("2021-03-01 20:02:00").getTime(); // 2015.7.2
+      var start = new Date("2021-07-08 00:00:00").getTime(); // 2015.7.2
       var t = new Date().getTime() - start;
       var h = ~~(t / 1000 / 60 / 60 % 24);
       if (h < 10) {
