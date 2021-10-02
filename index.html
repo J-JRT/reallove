@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Để tôi xem ai sẽ đến đây 😜</title>
+  <title>Vui lòng đăng nhập để biết nhé 😛</title>
   <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
 
@@ -13,7 +13,7 @@
 
   <div class="materialContainer">
     <div class="box">
-      <div class="title">Vâng vâng, mật mã🔐</div>
+      <div class="title">Hãy đăng nhập đi nào 🥴</div>
       <div class="input">
         <label for="username">Bạn là ai</label>
         <input type="text" name="username" id="username">
@@ -26,11 +26,11 @@
       </div>
       <div class="button login">
         <button onclick="login()">
-          <span>Khớp mã bí mật 🔓</span>
+          <span>Nhập rồi thì ấn dô đây 🔓</span>
           <i class="fa fa-check"></i>
         </button>
       </div>
-      <a href="javascript:" class="pass-forgot" onclick="forgot()">Quên dấu hiệu bí mật và nhấp vào đây 😭</a>
+      <a href="javascript:" class="pass-forgot" onclick="forgot()">Nếu quên thì ấn dô đây pls 😤</a>
     </div>
 
   </div>
@@ -39,24 +39,24 @@
   <script src="js/index.js"></script>
   <script>
     function forgot() {
-      alert("Bạn đang làm gì vậy? Hãy đến và hỏi tôi 🐷");
+      alert("Vừa ấn quên hả? Hãy liên hệ qua đường link: fb.com/NHD.JRT.262 để biết 😎");
     }
 
     function login() {
       var username = document.getElementById("username");
       var pass = document.getElementById("password");
       if (username.value == "") {
-        alert("Hãy để tôi xem bạn tên gì 😲");
+        alert("Vui lòng đăng nhập để biết nhé 😛");
         username.focus();
         return;
       } else if (pass.value == "") {
         alert("Hãy nhớ lại ngày đầu tiên của chúng ta😘");
         return;
-      } else if ((pass.value == "23032021") && (username.value == "mạnh" || "Mạnh" || "ngân" || "Ngân" || "nguyen thi ngan" || "Nguyễn Thị Ngân")) {
-        alert("Xác minh thành công ✅ Ding Dong có một lá thư");
+      } else if ((pass.value == "08082021") && (username.value == "đăng" || "Đăng" || "nhung" || "Nhung" || "Nguyễn Hải Đăng" || "Hà Thị Hồng Nhung")) {
+        alert("Xác minh thành công và tặng cậu một lá thư nè 💟");
         window.location.href = "main.html";
       } else {
-        alert("Không xác minh được ❎ bạn là ai ❓ ❓ ❓ ");
+        alert("Không xác minh được ❌ bạn là ai ❓ ❓ ❓ ");
         window.location.href = "Error_Lemon.html";
         return;
       }
