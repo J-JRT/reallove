@@ -1,5 +1,5 @@
 # LoveBaby
-https://demngayyeu.github.io/love-tree/
+https://J-JRT.github.io/love-tree/
 Món quà lãng mạn cho ngày kỷ niệm tình yêu của bé
 ===========================
 
@@ -15,4 +15,5 @@ Nguyên mẫu bắt nguồn từ bánh xe của những người tiền nhiệm 
 * Để đáp ứng nhu cầu của các thiết bị khác nhau để tự động phát âm thanh trên trang ảnh thư tình & quà tặng, một nút rất xấu xí đã được thực hiện
 
 
-Lần này chuẩn bị vội vàng quá hhh, sau này phải nghiên cứu kỹ về việc phát triển WEB, không thể chảy nước miếng như vậy được 😵
+Lần này chuẩn bị vội vàng quá hhh, sau này phải nghiên cứu kỹ về việc phát triển WEB, không thể chảy nước miếng như vậy được 😵 <p>
+//By: ManhIT  
